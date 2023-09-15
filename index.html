@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9c20eab56b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/Slider.css">
+    <link rel="stylesheet" href="assets/css/productos.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <title>Turian INC</title>
+</head>
+<body>
+    <!-- ----------encabezado--------- -->
+    <header id="header">
+        <div class="content-logo">
+            <img src="assets/img/logoTurianPng-01.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul class="listaMenu">
+                <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-universal-access"></i>Nosotros</a></li>
+                <li><a href="#productos"><i class="fa-solid fa-warehouse"></i>Productos</a></li>
+                <li><a href="#contacto"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+                <li class="btn-login">
+                    <a href="pages/loginSignup.html" rel="noopener noreferrer">
+                        <i class="fa-solid fa-user"></i>ACCESO
+                    </a>
+                </li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <!-- <button> -->
+            <a href="pages/loginSignup.html" rel="noopener noreferrer" class="login-button black-red">
+                ACCESO
+            </a>
+        <!-- </button> -->
+    </header>
+
+    <!-- ----------body--------- -->
+    <main>
+        <!-- inicio del slider -->
+        <section class="slider-frame">
+            <ul>
+                <li><img src="assets/img/SlidesImg/01.jpg" alt=""></li>
+                <li><img src="assets/img/SlidesImg/02.jpg" alt=""></li>
+                <li><img src="assets/img/SlidesImg/03.jpg" alt=""></li>
+                <li><img src="assets/img/SlidesImg/04.jpg" alt=""></li>
+            </ul>
+        </section>
+        <!-- fin slider -->
+
+        <!-- -------------------acerca de la empresa-------------------------- -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title">Acerca Turian INC.</h1>
+                        <img src="assets/img/fondo-about.png">
+                    </div>
+                    <div class="about-col-2">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('Quienes somos?')">Quienes Somos?</p>
+                            <p class="tab-links" onclick="openTab('Politicas')">Políticas</p>
+                            <p class="tab-links" onclick="openTab('Nuestro equipo')">Nuestro equipo</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Quienes somos?">
+                            <ul class="tab-contents-divicion">
+                                <li class="tab-contents-divicion-li">
+                                    <span>Mision</span><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                    Rerum culpa, adipisci quo iste excepturi in repudiandae aut sunt consectetur asperiores, 
+                                    totam cum itaque consequatur, reiciendis velit ea. Libero, voluptatibus omnis.
+                                </li>
+                                <li class="tab-contents-divicion-li">
+                                    <span>Vision</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Deserunt, ducimus. Rem, laborum. Architecto commodi quod quisquam laborum voluptates 
+                                    non corporis quasi mollitia, hic explicabo nobis voluptatum odit dolorem ullam 
+                                    temporibus!
+                                </li>
+                                <li class="tab-contents-divicion-li">
+                                    <span>Valores</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Laudantium, dolorem, iste consequatur maiores et aliquam illum voluptas voluptates 
+                                    quia officia harum nihil ratione perferendis architecto atque ipsa, placeat pariatur in.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Politicas">
+                            <ul class="tab-contents-divicion">
+                                <li class="tab-contents-divicion-li">
+                                    <span>Política de la Empresa</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Sit numquam possimus optio odio, iusto odit! Amet rerum delectus, pariatur voluptate 
+                                    quas aliquam. Sunt eum perspiciatis quos autem? Illo, nobis expedita.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Nuestro equipo">
+                            <ul class="tab-contents-divicion">
+                                <li class="tab-contents-divicion-li">
+                                    <span>Pedro Enmanuel Paniagua</span><br>
+                                    <img src="assets/img/EmpleadosImg/CEO01.jpg" alt="">CEO y fundaddor de Turian INC
+                                </li>
+                                <li class="tab-contents-divicion-li">
+                                    <span>Juan Carlos Alcantara</span><br>
+                                    <img src="assets/img/EmpleadosImg/Empleado02.jpg" alt="">Terminador de diseños graficos
+                                </li>
+                                <li class="tab-contents-divicion-li">
+                                    <span>Brenda Apellido</span><br>
+                                    <img src="assets/img/EmpleadosImg/Empleado03.jpg" alt="">Diseñadora grafica
+                                </li>
+                                <li class="tab-contents-divicion-li">
+                                    <span>Warlin Apellido</span><br>
+                                    <img src="assets/img/EmpleadosImg/01.jpg" alt="">Encargado de Bordados
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Tab Contents -->
+
+        <!-- --------------------productos----------------- -->
+        <span class="background" id="productos">
+            <div class="itemsBackground">
+                <h1 class="title-productos">Productos</h1>
+                <a href="pages/productos.html" class="verTodo" rel="noopener noreferrer">Ver todo</a>
+            </div>
+            <span class="centering">
+                <section class="articles" data-producto>
+                    <!-- Los productos se agregarán aquí dinámicamente -->
+                </section>
+            </span>
+        </span>        
+        <!-- -------------contactos------------- -->
+        <section id="contacto" class="contacto">
+            <div class="contacto-derecho">
+                <form id="contactForm">
+                    <h2 class="sub-title-contact">Hable con nosotros</h2>
+                    <input type="text" id="name" placeholder="Nombre" required>
+                    <input type="email" id="email" placeholder="Correo" required>
+                    <textarea id="message" rows="6" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn-contacto" id="btnSubmit">Enviar</button>
+                </form>
+            </div>
+            <div class="contacto-izquierdo">
+                <ul class="lista-contact">
+                    <li class="tema-lista-contacto"><a href="#Quienes somos?">Quienes somos?</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Políticas de privacidad</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Nuestras tiendas</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Anuncie aquí</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Inicio</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <!-- ----------footer--------- -->
+    <footer >
+        <div class="copyright">
+            <p>© 2023 Pedro Luis Valenzuela. Made <i class="fa-brands fa-empire"></i> by IMPERIO</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100092882898964&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/PedroLuis-ElLargo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/pedrovalenzuela112/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pedroluisvalenzuela011620" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -------------script------------- -->
+    <script src="controllers/index.js"></script>
+    <script type="module" src="controllers/productosControllers.js"></script>
+</body>
+</html>

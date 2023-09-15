@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <script src="https://kit.fontawesome.com/9c20eab56b.js" crossorigin="anonymous"></script>
+
+    <!-- estilos css -->
+    <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/contacto.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+     
+</head>
+<body>
+    <!-- ----------encabezado--------- -->
+    <header id="header">
+        <div class="content-logo">
+            <img src="../assets/img/logoTurianPng-01.png" alt="Logo" class="logo">
+        </div>
+        <div class="contenedorBuscar">
+            <input type="search" placeholder="Que deseas buscar?" id="search-input">
+            <button type="submit" class="btn-buscar"><i class="fas fa-search iconSearch"></i></button>
+        </div>
+    </header>
+
+    <!-- --------------------productos----------------- -->
+    <span class="background" id="productos">
+        <h1 class="title-productos">Productos</h1>
+        <a href="agregarProductos.html" rel="noopener noreferrer" class="title-agregar">Agregar productos</a>
+        <span class="centering">
+            <section class="articles" data-producto>
+                <!-- productos agregados dinamicamente -->
+            </section>
+        </span>
+    </span>
+    
+    <!-- ----------footer--------- -->
+    <footer >
+        <!-- -------------contactos------------- -->
+        <section id="contacto" class="contacto">
+            <div class="contacto-derecho">
+                <form id="contactForm">
+                    <h2 class="sub-title-contact">Hable con nosotros</h2>
+                    <input type="text" id="name" placeholder="Nombre" required>
+                    <input type="email" id="email" placeholder="Correo" required>
+                    <textarea id="message" rows="6" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn-contacto" id="btnSubmit">Enviar</button>
+                </form>
+            </div>
+            <div class="contacto-izquierdo">
+                <ul class="lista-contact">
+                    <li class="tema-lista-contacto"><a href="#Quienes somos?">Quienes somos?</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Políticas de privacidad</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Nuestras tiendas</a></li>
+                    <li class="tema-lista-contacto"><a href="#">Anuncie aquí</a></li>
+                    <li class="tema-lista-contacto"><a href="../index.html">Inicio</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- ----------footer--------- -->
+        <div class="copyright">
+            <p>© 2023 Pedro Luis Valenzuela. Made <i class="fa-brands fa-empire"></i> by IMPERIO</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100092882898964&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/PedroLuis-ElLargo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/pedrovalenzuela112/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pedroluisvalenzuela011620" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../controllers/listaProductos.js"></script>
+</body>
+</html>

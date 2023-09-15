@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Version de prueba Turian INC. Admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroLuis-ElLargo/e-commerce-Turian-Inc.git"
+  },
+  "author": "Pedro Luis Valenzuela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroLuis-ElLargo/e-commerce-Turian-Inc/issues"
+  },
+  "homepage": "https://github.com/PedroLuis-ElLargo/e-commerce-Turian-Inc#readme"
+}

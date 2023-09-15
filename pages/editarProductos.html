@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Producto</title>
+    <script src="https://kit.fontawesome.com/9c20eab56b.js" crossorigin="anonymous"></script>
+
+    <!-- estilos css -->
+    <link rel="stylesheet" href="../assets/css/agregarProductos.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
+</head>
+<body>
+    <!-- ----------encabezado--------- -->
+    <header id="header">
+        <div class="content-logo">
+            <img src="../assets/img/logoTurianPng-01.png" alt="Logo" class="logo">
+        </div>
+        <div class="contenedor-btn-inicio">
+            <a href="../pages/productos.html" rel="noopener noreferrer" class="btn-inicio"><i class="fa-solid fa-house"></i>Inicio</a>
+        </div>
+    </header>
+    <!-- ----------agregarProducto--------- -->
+    <main>
+        <h1>Actualizacion de Productos</h1>
+        <form data-form>
+            <fieldset class="contenedor">
+                <div class="profile-image-container">
+                    <img id="image-preview" src="" alt="Image Preview">
+                </div>
+                <label for="profile-picture">Cargue la imagen 
+                    <input type="file" id="profile-picture" accept="image/*" data-imageUrl>
+                </label>
+                <label for="first-name">Nombre del producto 
+                    <input id="first-name" name="first-name" type="text" required data-name>
+                </label>
+                <label for="bio">Breve descripcion
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Si hablas a todo el mundo, nadie se sentirá identificado con lo que dices" data-descripcion>
+                </textarea>
+            </label>
+            <input type="submit" value="Actualizar">
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- Modal para confirmar acciones -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>¡Producto actualizado con éxito!</p>
+        </div>
+    </div>
+  
+    <!-- ----------footer--------- -->
+    <footer>
+        <div class="copyright">
+            <p>© 2023 Pedro Luis Valenzuela. Made <i class="fa-brands fa-empire"></i> by IMPERIO</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100092882898964&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/PedroLuis-ElLargo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/pedrovalenzuela112/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pedroluisvalenzuela011620" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" 
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+    <script type="module" src="../controllers/actualizarProducto.js"></script>
+</body>
+</html>

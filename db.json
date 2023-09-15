@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/abrigo.jpg",
+      "name": "Abrigos Deportivos",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": 1
+    },
+    {
+      "name": "camisas",
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/Camisa.jpg",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": "84955bd3-f7cd-41b2-854a-6deda3ac1535"
+    },
+    {
+      "name": "gorras deportivas",
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/gorras.jpg",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": "a1d3af2e-5195-448a-bcd0-bb5cf57ed84a"
+    },
+    {
+      "name": "Letreros",
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/letrero.jpg",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": "905de5c2-6203-458d-b8ec-eb835644d967"
+    },
+    {
+      "name": "pantalones",
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/pantalon.jpg",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": "26843b36-61d4-4dea-874b-b33fb3651079"
+    },
+    {
+      "name": "vallas",
+      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/vallas.jpg",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
+      "id": "6d85f3a0-bd2b-4f5f-93d6-77ab5c099e1f"
+    }
+  ]
+}
