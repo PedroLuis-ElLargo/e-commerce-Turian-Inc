@@ -2,12 +2,12 @@
 
 //GET
 // Función para listar todos los productos
-const listaProductos = () => fetch("https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos").then((respuesta) => 
+const listaProductos = () => fetch("https://fake-api-versel-pi60k9b8s-pedroluis-ellargo.vercel.app/productos").then((respuesta) => 
 respuesta.json()).catch((error) => console.log(error));
 
 //POST
 const crearProdutos = ( name, imageUrl, descripcion ) => {
-  return fetch( `https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos`, {
+  return fetch( `https://fake-api-versel-pi60k9b8s-pedroluis-ellargo.vercel.app/productos`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -23,7 +23,7 @@ const crearProdutos = ( name, imageUrl, descripcion ) => {
 
 // PUT/PATCH
 const actualizarProducto = async ( name, imageUrl, descripcion, id ) => {
-  return fetch(`https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos/${id}`, {
+  return fetch(`https://fake-api-versel-pi60k9b8s-pedroluis-ellargo.vercel.app/productos/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
@@ -40,7 +40,7 @@ const actualizarProducto = async ( name, imageUrl, descripcion, id ) => {
 
 // Función para listar un producto por su ID
 const detalleProducto = (id) => {
-  return fetch(`https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos/${ id }`)
+  return fetch(`https://fake-api-versel-pi60k9b8s-pedroluis-ellargo.vercel.app/productos/${ id }`)
     .then((respuesta) => {
       return respuesta.json();
     });
@@ -48,7 +48,7 @@ const detalleProducto = (id) => {
 
 // DELETE
 const deleteProducto = async (id) => {
-  return await fetch(`https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos/${id}`, {
+  return await fetch(`https://fake-api-versel-pi60k9b8s-pedroluis-ellargo.vercel.app/productos/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
