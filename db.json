@@ -1,26 +1,26 @@
 {
   "productos": [
     {
-      "imageUrl": "https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos/assets/img/ProductosImg/abrigo.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ycAtgB5tL._AC_UY1000_.jpg",
       "name": "Abrigos Deportivos",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": 1
     },
     {
       "name": "camisas",
-      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/Camisa.jpg",
+      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/x3wAAOSwJrpcbHZW/s-l640.jpg",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": "84955bd3-f7cd-41b2-854a-6deda3ac1535"
     },
     {
       "name": "gorras deportivas",
-      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/gorras.jpg",
+      "imageUrl": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/9ba1a772fe73d4a8592193b84cfbe1de.jpg?imageMogr2/auto-orient%7CimageView2/2/w/1300/q/80/format/webp",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": "a1d3af2e-5195-448a-bcd0-bb5cf57ed84a"
     },
     {
       "name": "Letreros",
-      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/letrero.jpg",
+      "imageUrl": "https://letreros-peru.com/wp-content/uploads/letreros-publicitarios-peru.jpg",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": "905de5c2-6203-458d-b8ec-eb835644d967"
     },
@@ -32,7 +32,7 @@
     },
     {
       "name": "vallas",
-      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/vallas.jpg",
+      "imageUrl": "https://www.pullcomunicacion.es/wp-content/uploads/2020/07/valla-iluminada.jpg",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": "6d85f3a0-bd2b-4f5f-93d6-77ab5c099e1f"
     }
