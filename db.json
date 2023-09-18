@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "imageUrl": "http://127.0.0.1:5500/assets/img/ProductosImg/abrigo.jpg",
+      "imageUrl": "https://fake-api-versel-95p49yijq-pedroluis-ellargo.vercel.app/productos/assets/img/ProductosImg/abrigo.jpg",
       "name": "Abrigos Deportivos",
       "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quas expedita iste earum sed eos.",
       "id": 1
